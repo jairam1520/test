@@ -14,6 +14,7 @@ external Serv {
 	ascii name : terminated_by("|");
 };
 
+//in maps
 in_map s1_imap : external(Serv),target_internal(ServTI){automatic;};
 
 in_map s2_imap : external(ServiceExt),target_internal(ServiceTI){

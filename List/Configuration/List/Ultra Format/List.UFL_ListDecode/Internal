@@ -18,12 +18,12 @@
       <boolean name="Is Locked" value="false"/>
       <boolean name="Is Valid" value="true"/>
       <string name="Key" value="DR1779533393159"/>
-      <string name="Modified By" value="mzadmin"/>
-      <long name="Modified Date" value="1783841647987"/>
+      <string name="Modified By" value="Jai K"/>
+      <long name="Modified Date" value="1783843269828"/>
       <string name="Name" value="UFL_ListDecode"/>
       <string name="Owner" value="mzadmin"/>
       <string name="Type" value="Ultra Format"/>
-      <int name="Version" value="18"/>
+      <int name="Version" value="19"/>
       <string name="documentation" value=""/>
    </storable>
 </ultra_format>
