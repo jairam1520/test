@@ -3,6 +3,7 @@
    <string name="Definition"><![CDATA[/*
 EVT1001,VOICE|DATA|SMS|OTT|#2021
 */
+//new comment
 external ServiceExt {
 	ascii eventId : terminated_by(",");
 	list<Serv> activeServices : terminated_by("#");
