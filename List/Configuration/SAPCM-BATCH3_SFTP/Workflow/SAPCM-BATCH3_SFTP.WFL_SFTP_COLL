@@ -2,9 +2,9 @@
   "Key": "DR1782631689242",
   "Name": "WFL_SFTP_COLL",
   "Type": "Workflow",
-  "Version": 3,
+  "Version": 6,
   "Folder": "SAPCM-BATCH3_SFTP",
-  "Owner": "mzadmin",
+  "Owner": "sapcmuser14",
   "Is Valid": true,
   "Access Groups -read -write -execute": [
     "ZSAP_CM_ALL",
@@ -215,8 +215,8 @@
           }
         ],
         "XYposition": {
-          "x": 420,
-          "y": 220,
+          "x": 380,
+          "y": 230,
           "$Version": 1.0
         },
         "$Version": 2.0
@@ -257,7 +257,7 @@
           }
         ],
         "XYposition": {
-          "x": 270,
+          "x": 250,
           "y": 230,
           "$Version": 1.0
         },
@@ -275,22 +275,22 @@
         "stroke": [
           {
             "x": 150,
-            "y": 210,
+            "y": 209,
             "$Version": 1.0
           },
           {
-            "x": 180,
+            "x": 173,
             "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 210,
+            "x": 197,
             "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 240,
-            "y": 210,
+            "x": 220,
+            "y": 209,
             "$Version": 1.0
           }
         ],
@@ -298,30 +298,30 @@
       },
       {
         "destinationId": 1298438762,
-        "id": -6,
-        "name": "r_5",
+        "id": -5,
+        "name": "r_4",
         "realtimeMode": "Not set",
         "routeStyle": "Bezier",
         "sourceId": -1939312021,
         "stroke": [
           {
-            "x": 300,
-            "y": 208,
+            "x": 280,
+            "y": 209,
             "$Version": 1.0
           },
           {
-            "x": 329,
-            "y": 194,
+            "x": 304,
+            "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 359,
-            "y": 192,
+            "x": 327,
+            "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 391,
-            "y": 203,
+            "x": 351,
+            "y": 209,
             "$Version": 1.0
           }
         ],
