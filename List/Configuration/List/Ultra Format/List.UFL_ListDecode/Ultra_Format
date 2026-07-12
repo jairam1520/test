@@ -6,7 +6,7 @@ EVT1001,VOICE|DATA|SMS|OTT|#2021
 //comment on desktop
 external ServiceExt {
 	ascii eventId : terminated_by(",");
-	list<Serv> activeServices : terminated_by("#");
+	list<Serv> activeServices : terminated_by("#");//retro fit
     ascii year : terminated_by("\n");
 };
 
