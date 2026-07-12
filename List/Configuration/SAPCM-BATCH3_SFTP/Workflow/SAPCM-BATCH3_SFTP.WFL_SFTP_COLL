@@ -2,7 +2,7 @@
   "Key": "DR1782631689242",
   "Name": "WFL_SFTP_COLL",
   "Type": "Workflow",
-  "Version": 4,
+  "Version": 5,
   "Folder": "SAPCM-BATCH3_SFTP",
   "Owner": "sapcmuser14",
   "Is Valid": true,
@@ -215,7 +215,49 @@
           }
         ],
         "XYposition": {
-          "x": 320,
+          "x": 380,
+          "y": 230,
+          "$Version": 1.0
+        },
+        "$Version": 2.0
+      },
+      {
+        "Name": "Analysis_1",
+        "ID": -1939312021,
+        "Classname": "com.digitalroute.wfc.analysis.StuffyMapperInsp",
+        "Configuration": [
+          {
+            "Type": 1,
+            "Classname": "com.digitalroute.wfc.analysis.StuffyMapperInsp",
+            "Data": {
+              "sourceCode": "consume {
+    udrRoute(input);
+}",
+              "udrTypes": [
+                {
+                  "typeName": "bytearray",
+                  "$Version": 1.0
+                }
+              ],
+              "$Type": "dr.StuffyMapperData",
+              "$Version": 10.0
+            },
+            "$Version": 1.0
+          },
+          {
+            "Type": 0,
+            "Classname": "com.digitalroute.devkit.hidden.DRThreadBufferInsp",
+            "Data": {
+              "printStats": false,
+              "useOwnThread": false,
+              "$Type": "dr.DRThreadBufferConfig",
+              "$Version": 10.0
+            },
+            "$Version": 1.0
+          }
+        ],
+        "XYposition": {
+          "x": 250,
           "y": 230,
           "$Version": 1.0
         },
@@ -224,16 +266,21 @@
     ],
     "routes": [
       {
-        "destinationId": 1298438762,
-        "id": -3,
-        "name": "r_2",
+        "destinationId": -1939312021,
+        "id": -4,
+        "name": "r_3",
         "realtimeMode": "Not set",
         "routeStyle": "Bezier",
         "sourceId": 1645944632,
         "stroke": [
           {
             "x": 150,
-            "y": 213,
+            "y": 209,
+            "$Version": 1.0
+          },
+          {
+            "x": 173,
+            "y": 198,
             "$Version": 1.0
           },
           {
@@ -242,13 +289,39 @@
             "$Version": 1.0
           },
           {
-            "x": 244,
+            "x": 220,
+            "y": 209,
+            "$Version": 1.0
+          }
+        ],
+        "$Version": 1.0
+      },
+      {
+        "destinationId": 1298438762,
+        "id": -5,
+        "name": "r_4",
+        "realtimeMode": "Not set",
+        "routeStyle": "Bezier",
+        "sourceId": -1939312021,
+        "stroke": [
+          {
+            "x": 280,
+            "y": 209,
+            "$Version": 1.0
+          },
+          {
+            "x": 304,
             "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 291,
-            "y": 213,
+            "x": 327,
+            "y": 198,
+            "$Version": 1.0
+          },
+          {
+            "x": 351,
+            "y": 209,
             "$Version": 1.0
           }
         ],

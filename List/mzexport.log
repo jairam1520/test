@@ -1,10 +1,8 @@
-Export started at 2026-07-12 02:43:28
+--------------------------------------------------
+Commit and pushed the export to remote repository.
+Export started at 2026-07-12 02:48:59
 Output target is (test / main) /List
 --------------------------------------------------
 [Configuration/SAPCM-BATCH3_SFTP/Workflow] - Exporting SAPCM-BATCH3_SFTP.WFL_SFTP_COLL
 --------------------------------------------------
-[System/Access Group] - Exporting ZSAP_CM_ALL
---------------------------------------------------
-[System/User] - Exporting sapcmuser14
---------------------------------------------------
-Export finished at 2026-07-12 02:43:28
+Export finished at 2026-07-12 02:48:59
