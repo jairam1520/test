@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<exportmultiplex category="Ultra_Format" ref_path="ultra_format[Internal]/storable[ultra_format]/storable[Data]">
+   <string name="Definition"><![CDATA[
+external ServiceExt {
+	ascii eventId : terminated_by("|");
+	ascii msisdn : terminated_by("|");
+	ascii circle : terminated_by("|");
+	ascii activeServices : terminated_by("|");
+	ascii usedServices : terminated_by("|");
+	ascii eventDate : terminated_by("\n");
+};
+
+internal ServiceInt{
+	string eventId;
+	string msisdn;
+	string circle;
+	string activeServices;
+	string usedServices;
+	string eventDate;
+	list<string> liActiveSer;
+	list<string> liUsedService;
+};
+
+in_map s_imap : external(ServiceExt),internal(ServiceInt){automatic;};
+decoder s_dec : in_map(s_imap);
+
+internal ServiceOut{
+	string eventId;
+	string msisdn;
+	string circle;
+	int subscribedServiceCount;
+    int usedServiceCount;
+    string unauthorizedServices;
+    string billableServices;
+    string validationStatus;
+};
+]]></string>
+</exportmultiplex>
