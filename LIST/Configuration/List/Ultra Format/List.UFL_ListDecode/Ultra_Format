@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<exportmultiplex category="Ultra_Format" ref_path="ultra_format[Internal]/storable[ultra_format]/storable[Data]">
+   <string name="Definition"><![CDATA[/*
+EVT1001,VOICE|DATA|SMS|OTT|#2021
+*/
+external ServiceExt {
+	ascii eventId : terminated_by(",");
+	list<Serv> activeServices : terminated_by("#");
+    ascii year : terminated_by("\n");
+};
+
+external Serv {
+	ascii name : terminated_by("|");
+};
+
+in_map s1_imap : external(Serv),target_internal(ServTI){automatic;};
+
+in_map s2_imap : external(ServiceExt),target_internal(ServiceTI){
+
+	automatic{
+		 Serv : using in_map s1_imap;
+	};
+
+};
+
+decoder liDec : in_map(s2_imap);
+
+
+/*
+
+EVT1001|MUMBAI|VOICE,DATA,SMS,OTT,|DATA,SMS,OTT,|2026-05-20 10:15:20
+EVT1002|DELHI|VOICE,SMS,|DATA,SMS,OTT,|2026-05-20 11:40:10
+EVT1003|PUNE|VOICE,DATA,ROAMING,OTT,|DATA,SMS,OTT,|2026-05-20 12:05:55
+
+*/
+
+external EvtExt {
+	ascii eventId : terminated_by("|");
+    ascii circle : terminated_by("|");
+	list<ServName> activeServices : terminated_by("|");
+    list<ServName> usedServices : terminated_by("|");
+    ascii dateTime : terminated_by("\n");
+};
+
+external ServName {
+	ascii name : terminated_by(",");
+};
+
+in_map s3_imap : external(ServName),target_internal(ServNameTI){automatic;};
+
+in_map s4_imap : external(EvtExt),target_internal(EvtTI){
+
+	automatic{
+		 ServName : using in_map s3_imap;
+	};
+
+};
+
+decoder liDec1 : in_map(s4_imap);]]></string>
+</exportmultiplex>
