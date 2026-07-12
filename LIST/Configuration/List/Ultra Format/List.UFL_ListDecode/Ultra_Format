@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <exportmultiplex category="Ultra_Format" ref_path="ultra_format[Internal]/storable[ultra_format]/storable[Data]">
-   <string name="Definition"><![CDATA[/*
-EVT1001,VOICE|DATA|SMS|OTT|#2021
-*/
-//new comment
+   <string name="Definition"><![CDATA[/* EVT1001,VOICE|DATA|SMS|OTT|#2021 */
+//External for Server event
 external ServiceExt {
-	ascii eventId : terminated_by(",");
-	list<Serv> activeServices : terminated_by("#");
-    ascii year : terminated_by("\n");
+        ascii eventId : terminated_by(",");
+        list<Serv> activeServices : terminated_by("#");
+        ascii year : terminated_by("\n");
 };
 
 external Serv {
