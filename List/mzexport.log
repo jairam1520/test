@@ -1,8 +1,24 @@
 --------------------------------------------------
-Commit and pushed the export to remote repository.
-Export started at 2026-07-12 02:48:59
+Commit and push failed, will try to merge.
+Get latest from Repository
+--------------------------------------------------
+Automatically importing configurations
+This export was done 2026-07-12 15:18:59
+at host saps4hana by sapcmuser14@DR.
+Import started at 2026-07-12 15:20:35
+Input source is List
+--------------------------------------------------
+[Configuration/Workflow] - Importing SAPCM-BATCH3_SFTP.WFL_SFTP_COLL.
+[Configuration/Workflow] - User sapcmuser14 does not exist, using mzadmin.
+--------------------------------------------------
+Revalidating affected configurations
+--------------------------------------------------
+Import finished with errors at 2026-07-12 15:20:53
+Export started at 2026-07-12 15:29:31
 Output target is (test / main) /List
 --------------------------------------------------
 [Configuration/SAPCM-BATCH3_SFTP/Workflow] - Exporting SAPCM-BATCH3_SFTP.WFL_SFTP_COLL
 --------------------------------------------------
-Export finished at 2026-07-12 02:48:59
+[System/Access Group] - Exporting ZSAP_CM_ALL
+--------------------------------------------------
+Export finished at 2026-07-12 15:29:32
