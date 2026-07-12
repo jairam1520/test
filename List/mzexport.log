@@ -1,39 +1,36 @@
 --------------------------------------------------
 Commit and push failed, will try to merge.
 Get latest from Repository
-Remote repo have changed these Configurations:
-SAPCM-BATCH3_SFTP.WFL_SFTP_COLL
 Remote repo has these Configurations added:
+SAPCM-BATCH3_SFTP.UFL_SFTP
 --------------------------------------------------
 Automatically importing configurations
-This export was done 2026-07-12 13:59:31
-at host localhost.localdomain by mzadmin@DR.
-Import started at 2026-07-12 14:05:00
+This export was done 2026-07-12 15:39:03
+at host saps4hana by sapcmuser14@DR.
+Import started at 2026-07-12 15:40:14
 Input source is List
 --------------------------------------------------
-[Configuration/Workflow] - Importing SAPCM-BATCH3_SFTP.WFL_SFTP_COLL.
+[Configuration/Ultra Format] - Importing SAPCM-BATCH3_SFTP.UFL_SFTP.
+[Configuration/Ultra Format] - User sapcmuser14 does not exist, using mzadmin.
 --------------------------------------------------
 Revalidating affected configurations
 --------------------------------------------------
-Import finished at 2026-07-12 14:05:03
+Import finished with errors at 2026-07-12 15:40:49
 Automatically importing configurations
-This export was done 2026-07-12 13:59:31
-at host localhost.localdomain by mzadmin@DR.
-Import started at 2026-07-12 14:05:03
+This export was done 2026-07-12 15:39:03
+at host saps4hana by sapcmuser14@DR.
+Import started at 2026-07-12 15:40:49
 Input source is List
 --------------------------------------------------
-[System/Access Group] - Importing ZSAP_CM_ALL.
---------------------------------------------------
 [Configuration/Workflow] - Importing SAPCM-BATCH3_SFTP.WFL_SFTP_COLL.
+[Configuration/Workflow] - User sapcmuser14 does not exist, using mzadmin.
 --------------------------------------------------
 Revalidating affected configurations
 --------------------------------------------------
-Import finished at 2026-07-12 14:05:05
-Export started at 2026-07-12 03:09:03
+Import finished with errors at 2026-07-12 15:40:54
+Export started at 2026-07-12 15:42:12
 Output target is (test / main) /List
---------------------------------------------------
-[Configuration/SAPCM-BATCH3_SFTP/Ultra Format] - Exporting SAPCM-BATCH3_SFTP.UFL_SFTP
 --------------------------------------------------
 [Configuration/SAPCM-BATCH3_SFTP/Workflow] - Exporting SAPCM-BATCH3_SFTP.WFL_SFTP_COLL
 --------------------------------------------------
-Export finished at 2026-07-12 03:09:03
+Export finished at 2026-07-12 15:42:13

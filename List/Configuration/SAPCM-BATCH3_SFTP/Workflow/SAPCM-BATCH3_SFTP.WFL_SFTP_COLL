@@ -2,9 +2,9 @@
   "Key": "DR1782631689242",
   "Name": "WFL_SFTP_COLL",
   "Type": "Workflow",
-  "Version": 6,
+  "Version": 4,
   "Folder": "SAPCM-BATCH3_SFTP",
-  "Owner": "sapcmuser14",
+  "Owner": "mzadmin",
   "Is Valid": true,
   "Access Groups -read -write -execute": [
     "ZSAP_CM_ALL",
@@ -215,8 +215,8 @@
           }
         ],
         "XYposition": {
-          "x": 380,
-          "y": 230,
+          "x": 420,
+          "y": 220,
           "$Version": 1.0
         },
         "$Version": 2.0
@@ -231,6 +231,7 @@
             "Classname": "com.digitalroute.wfc.analysis.StuffyMapperInsp",
             "Data": {
               "sourceCode": "consume {
+    debug(input);
     udrRoute(input);
 }",
               "udrTypes": [
@@ -257,7 +258,7 @@
           }
         ],
         "XYposition": {
-          "x": 250,
+          "x": 270,
           "y": 230,
           "$Version": 1.0
         },
@@ -275,22 +276,22 @@
         "stroke": [
           {
             "x": 150,
-            "y": 209,
+            "y": 210,
             "$Version": 1.0
           },
           {
-            "x": 173,
+            "x": 180,
             "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 197,
+            "x": 210,
             "y": 198,
             "$Version": 1.0
           },
           {
-            "x": 220,
-            "y": 209,
+            "x": 240,
+            "y": 210,
             "$Version": 1.0
           }
         ],
@@ -298,30 +299,30 @@
       },
       {
         "destinationId": 1298438762,
-        "id": -5,
-        "name": "r_4",
+        "id": -6,
+        "name": "r_5",
         "realtimeMode": "Not set",
         "routeStyle": "Bezier",
         "sourceId": -1939312021,
         "stroke": [
           {
-            "x": 280,
-            "y": 209,
+            "x": 300,
+            "y": 208,
             "$Version": 1.0
           },
           {
-            "x": 304,
-            "y": 198,
+            "x": 329,
+            "y": 194,
             "$Version": 1.0
           },
           {
-            "x": 327,
-            "y": 198,
+            "x": 359,
+            "y": 192,
             "$Version": 1.0
           },
           {
-            "x": 351,
-            "y": 209,
+            "x": 391,
+            "y": 203,
             "$Version": 1.0
           }
         ],
