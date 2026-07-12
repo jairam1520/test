@@ -1,6 +1,10 @@
-Export started at 2026-07-12 13:31:59
+Export started at 2026-07-12 02:43:28
 Output target is (test / main) /List
 --------------------------------------------------
-[Configuration/List/Ultra Format] - Exporting List.UFL_ListDecode
+[Configuration/SAPCM-BATCH3_SFTP/Workflow] - Exporting SAPCM-BATCH3_SFTP.WFL_SFTP_COLL
 --------------------------------------------------
-Export finished at 2026-07-12 13:31:59
+[System/Access Group] - Exporting ZSAP_CM_ALL
+--------------------------------------------------
+[System/User] - Exporting sapcmuser14
+--------------------------------------------------
+Export finished at 2026-07-12 02:43:28
